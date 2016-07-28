@@ -100,13 +100,14 @@ public class MovieDetailsFragment extends BaseFragment {
             public void onClick(View view) {
                 MovieDao movieDao = MyApplication.get(getActivity()).getDaoSession().getMovieDao();
                 if(mMovie.isFavorite()) {
-                    mFavoriteBttn.setSelected(true);
                     mMovie.setFavorite(false);
+                    mFavoriteBttn.setSelected(false);
                     movieDao.delete(mMovie);
                     Toast.makeText(getActivity(), getString(R.string.message_removed_from_favorites),
                             Toast.LENGTH_SHORT).show();
                 } else {
                     mMovie.setFavorite(true);
+                    mFavoriteBttn.setSelected(true);
                     movieDao.insertOrReplace(mMovie);
                     Toast.makeText(getActivity(), getString(R.string.message_added_to_favorites),
                             Toast.LENGTH_SHORT).show();
