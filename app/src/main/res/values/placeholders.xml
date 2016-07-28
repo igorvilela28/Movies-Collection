@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Placeholders strings (Should'nt be translated)-->
+
+<resources>
+
+    <string name="placeholder_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="placeholder_movie_plot">Twenty-two years after the events of Jurassic Park, Isla Nublar now features a fully functioning dinosaur theme park, Jurassic World, as originally envisioned by John Hammond.
+        Twenty-two years after the events of Jurassic Park, Isla Nublar now features a fully functioning dinosaur theme park, Jurassic World, as originally envisioned by John Hammond.
+    </string>
+    <string name="placeholder_movie_year">2015</string>
+    <string name="placeholder_movie_title">Jurassic World</string>
+
+    <!-- Place holders -->
+    <string name="place_holder_awards">4 wins &amp; 53 nominations</string>
+    <string name="place_holder_director">Colin Trevorrow</string>
+    <string name="place_holder_cast">Chris Pratt, Bryce Dallas Howard, Irrfan Khan, Vincent
+        DOnofrio
+    </string>
+    <string name="place_holder_writers">Rick Jaffa (screenplay), Amanda Silver (screenplay), Colin
+        Trevorrow (screenplay), Derek Connolly (screenplay), Rick Jaffa (story), Amanda Silver
+        (story), Michael Crichton (characters)
+    </string>
+    <string name="place_holder_genre">Action, Adventure, Sci-Fi</string>
+    <string name="place_holder_language">English</string>
+    <string name="place_holder_country">USA</string>
+    <string name="place_holder_released">12 Jun, 2015</string>
+
+</resources>
