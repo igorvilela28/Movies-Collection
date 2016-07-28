@@ -75,20 +75,24 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MyViewHolder
             @Override
             public void onClick(View view) {
                 MovieDao movieDao = MyApplication.get(mContext).getDaoSession().getMovieDao();
+                int idx = mMovieList.indexOf(movie);
                 if(movie.isFavorite()) {
                     movieDao.delete(movie);
                     holder.favoriteBttn.setSelected(false);
-                    mMovieList.remove(holder.getAdapterPosition());
                     if(mContext instanceof MainActivity) {
                         mMovieList.remove(movie);
+                        notifyDataSetChanged();
+                    } else {
+                        mMovieList.get(idx).setFavorite(false);
                         notifyDataSetChanged();
                     }
                     Toast.makeText(mContext, mContext.getString(R.string.message_removed_from_favorites),
                             Toast.LENGTH_SHORT).show();
                 } else {
-                    movie.setFavorite(true);
-                    movieDao.insertOrReplace(movie);
+                    mMovieList.get(idx).setFavorite(true);
+                    movieDao.insertOrReplace(mMovieList.get(idx));
                     holder.favoriteBttn.setSelected(true);
+                    notifyDataSetChanged();
 
                     Toast.makeText(mContext, mContext.getString(R.string.message_added_to_favorites),
                             Toast.LENGTH_SHORT).show();
