@@ -110,7 +110,8 @@ public class FavoriteMoviesFragment extends BaseFragment {
         //update the content when starting or returning to the main activity
         mMovieList.clear();
         MovieDao mDao = MyApplication.get(getActivity()).getDaoSession().getMovieDao();
-        mMovieList.addAll(mDao.queryBuilder().list());
+        mMovieList.addAll(mDao.queryBuilder().orderAsc(MovieDao
+                                .Properties.MTitle).list());
         setTextResult();
     }
 
